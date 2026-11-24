@@ -1,0 +1,14 @@
+[
+  { "id": 1, "title": "Механическая клавиатура", "category": "peripherals", "price": 3000, "discountPercent": 15, "rating": 4.9, "isAvailable": true },
+  { "id": 2, "title": "Геймерская мышь", "category": "peripherals", "price": 1500, "discountPercent": 0, "rating": 4.8, "isAvailable": true },
+  { "id": 3, "title": "Наушники с шумоподавлением", "category": "audio", "price": 2000, "discountPercent": 10, "rating": 4.7, "isAvailable": true },
+  { "id": 4, "title": "Офисная клавиатура", "category": "peripherals", "price": 3000, "discountPercent": 0, "rating": 4.5, "isAvailable": true },
+  { "id": 5, "title": "Коврик для мыши XL", "category": "peripherals", "price": 800, "discountPercent": 0, "rating": 4.9, "isAvailable": true },
+  { "id": 6, "title": "Студийный USB-микрофон", "category": "audio", "price": 2500, "discountPercent": 10, "rating": 4.8, "isAvailable": true },
+  { "id": 7, "title": "Компьютерные колонки 2.0", "category": "audio", "price": 1300, "discountPercent": 0, "rating": 4.4, "isAvailable": true },
+  { "id": 8, "title": "4K Ultra HD Монитор", "category": "monitors", "price": 25000, "discountPercent": 10, "rating": 4.9, "isAvailable": true },
+  { "id": 9, "title": "Магнитная клавиатура", "category": "peripherals", "price": 8000, "discountPercent": 5, "rating": 5.0, "isAvailable": true },
+  { "id": 10, "title": "Офисная мышка", "category": "peripherals", "price": 400, "discountPercent": 0, "rating": 4.3, "isAvailable": false },
+  { "id": 11, "title": "Геймерский стул", "category": "monitors", "price": 12000, "discountPercent": 10, "rating": 4.8, "isAvailable": true },
+  { "id": 12, "title": "Игровой стол с электроприводом", "category": "monitors", "price": 20000, "discountPercent": 15, "rating": 4.9, "isAvailable": true }
+]

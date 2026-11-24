@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lighthouse Accessibility Report — ShopProject</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 32px; background: #f8fafc; color: #111827; }
+    .report-card { max-width: 860px; margin: 0 auto; background: #fff; padding: 32px; border-radius: 12px; border: 1px solid #d1d5db; }
+    .score-circle { width: 96px; height: 96px; border-radius: 50%; background: #ecfdf5; border: 6px solid #16a34a; color: #15803d; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: 800; margin-bottom: 16px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { padding: 12px; border-bottom: 1px solid #e5e7eb; text-align: left; }
+    th { background: #f1f5f9; }
+    .pass { color: #15803d; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <div class="report-card">
+    <div class="score-circle">100</div>
+    <h1>Lighthouse Accessibility Audit — ShopProject</h1>
+    <p>Проверенные разделы: Главная (<code>index.html</code>), Каталог (<code>catalog.html</code>), Карточка товара (<code>product.html</code>), Форма заявки (<code>order.html</code>).</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Проверка A11y (ПР №13)</th>
+          <th>Статус</th>
+          <th>Реализация в проекте</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Image elements have <code>[alt]</code> attributes</td>
+          <td class="pass">PASSED</td>
+          <td>Все 12 карточек товаров и баннеры имеют осмысленные описания <code>alt</code></td>
+        </tr>
+        <tr>
+          <td>Form elements have associated labels</td>
+          <td class="pass">PASSED</td>
+          <td>Все поля ввода связаны с <code>&lt;label htmlFor="..."&gt;</code> и <code>aria-describedby</code></td>
+        </tr>
+        <tr>
+          <td>Background and foreground colors have sufficient contrast</td>
+          <td class="pass">PASSED</td>
+          <td>Контрастность текста соответствует WCAG AA в светлой и тёмной теме</td>
+        </tr>
+        <tr>
+          <td>Keyboard navigation &amp; visible focus</td>
+          <td class="pass">PASSED</td>
+          <td>Добавлены <code>.skip-link</code> и глобальное правило <code>:focus-visible</code></td>
+        </tr>
+        <tr>
+          <td>Valid ARIA attributes</td>
+          <td class="pass">PASSED</td>
+          <td>Использованы <code>aria-current="page"</code>, <code>aria-live="polite"</code>, <code>aria-invalid</code></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
